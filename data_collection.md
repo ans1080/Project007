@@ -38,6 +38,50 @@ Project 007 uses API calls in two places, both functions.  One of them is the af
 
 ### Interpolated Data
 ```
-Some values used in the dataframe are not drawn directly from the API, instead they entirely interpolated.  They are the best estimation I could produce given the concrete data IMDb provided.  I chose to use approximations because it allows for more useful comparisons than would otherwise be viable.  One example that has already been discussed is the case of a null value for IMDb user ratings.  
+Some values used in the dataframe are not drawn directly from the API, instead they entirely interpolated.  They are the best estimation I could produce given the concrete data the IMDb API provided.  I chose to use approximations because it allows for more useful comparisons than would otherwise be viable.  One example that has already been discussed is the case of a null value for IMDb user ratings.  In that case, the only other relevant data that is accessible is the Metacritic aggregate score.  With no other data points, the best approximation of a user rating is the critics.  So, the Metacritic score was simply converted to the IMDb rating format and appended with an estimation tag. While this only affects the recent No Time to Die, I thought it prudent to develop an alogrythm capable of handling null edge cases in case other movies are added in the future. 
+
+That single instance is not the only approximation in the program.  There is another, much more common case of interpolated data found in the international revenue column.  As discussed, when foriegn box office data is unavailable or limited in scope ,the international revenue will be equal or very close the US box office.  Specifically, if the international revenue is within 1% variance of the US box office I deemed the data to be missing and replaced the value with the string 'No Data'.  The missing data makes any comparison of total revenue between films invalid, so to compensate I devised an algorithm remedy the problem.  It can be found in the tenth code block of the project007 jupyter notebook.  It contains to sections, headed by comments that are described with an abstract style of psuedcode below.
+```
+* The first segment of code calculates the variable `change`.  This variable is the coefficient derived from ratios of US box office to international revenue.
+    * First, it creates a for loop that iterates through each movie in the dataframe.
+        * For each film, it determines if data exists for both the US box office and international revenue.
+            * If it does, the code uses the floater function to change the dollar value strings into float data types.
+            * It then takes the ratio of international revenue to US box office and saves the result in running tally under the variable `total`.
+    * When the loop is done, the program uses a value_counts() boolean to determine the number of movies that have data for both columns.  This result is saved as `counter` and is equal to the number of ratios the `total` variable is comprised of.
+    * The segment ends by creating the `change` variable and setting it equal to `total` divided by `counter`.  This makes `change` the average of all the valid ratios, essentially the coefficient by which US box office must be multiplied by to determine the average international revenue.
+* The second segment of code applies `change` to the US box office of films where there is no foriegn box office data available.
+    * It, again, begins with a for loop that iterates through all of the movies.
+        * And for each film it uses an if statement to isolate the films that have 'No Data' for international revenue.
+            * It then uses the floater function to convert the US box office data into a data type suitable for mathmatics.
+            * Next, the program applies the coefficient to the US box office data and saves the result.
+            * Finally, it formats the result into a string with a dollar sign, approriate commas, and an estimation tag. Then it saves the result in the international revenue column for each indexed movie.
+
+### Web-Scraping Data Collection
+```
+Even with all of the missing data interpolated, comparisons between the financial data of different films is still of little worth.  This is because of inflation.  A dollar in 1962 was worth over 9 times the amount of a dollar in 2021.  Its clear that for realistic analysis, inflation must be accounted for.  The easiest way to accomplish this task is with the consumer price index.  This is a value, known as cpi, is computed monthly and averaged yearly by the US Bureau of Labor Statistics.  It measures the average change overtime in the prices paid by consumers for goods and services.  Its extremely useful because it can be used to calculate the value of a dollar from one year, in any other year.  Specifically, the formula is the base price in the original year multiplied by the ratio of the new year's cpi divided by the original year's cpi: new amount = original amound * (new cpi/original cpi).  The application of this equation allows the program to easily convert the worldwide gross that is contained in the international revenue column into 2021 dollars.
+
+Just because cpi is a useful statistic does not mean it is available on IMDb's API.  In this case, the data was found on the Federal Reserve Bank of Minneapolis web page.  The URL is as follows: https://www.minneapolisfed.org/about-us/monetary-policy/inflation-calculator/consumer-price-index-1913-.  A quick travel to that site will reveal a very simple table containing only the year, the annual average cpi for that year, and the rate of inflation for the same.  The python library beautiful soup, was used to return the html code of the document which was then scraped to produce a dictionary containing the year and it's corresponding cpi.  The code that does this is found in the 11th block of the project007.ipynb file.  The pseudocode for the segment can be found below.
+```
+* Use requests.get on the webpage.
+* Use the html.parser function of beautiful soup to return the html code.
+* Index into the `tbody` div in the html code.
+* Within `tbody` use the find_all function to access each `td` entry and save the result in the variable `tables`.
+* Create an empty list `info_list` to store the scraped data
+* Create a for loop that iterates through each element, `elem` in `tables`.
+    * For each element, use find_children and contents to return the values on the table and save them to variable `info`
+    * append `info_list` with the `info` variable for each element
+* Create two new empty lists `year` and `cpi`
+* Create a for loop that iterates through the `info_list` by threes, starting at index 0 (This will iterate through all the year values)
+    * Format the year data by replacing * characters with empty strings
+    * Continue formatting by replacing unicode '\xa0' with ''.
+    * Append the formatted year data to the `year` list.
+* Create a for loop that iterates through the `info_list` by threes, starting at index 11 (This will iterate through all the cpi values)
+    * Append the iterated data to the `cpi` list.
+
+ ### Calculated Data
+ ```
+ Even with all of the data derived from web-scraping and API calls, there was still some values that were obtained by other means.  In this final instance, data was calculated.  Specifically, the 'Adjusted Revenue' and 'Average Rating' columns.  The average rating is exactly what it sounds like; it is the sum of the IMDb user rating and the Metacritic score divided by 2.  However, both sets of data had to be converted from strings.  In addition, the the user rating was multiplied by a factor of 10 to put both ratings on a uniform scale of 100.  More interesting is the adjusted revenue.  This value is derived from applying the formula described in the web-scraping section, (new amount = original amound * (new cpi/original cpi)), to the international revenue to produce an inflation adjusted total revenue for each movie.  With those final two calculated data columns, the project007 database can be considered complete.
+ ```
+ * A special note: many of the smaller for loops utilized would be excellent opportunities to make use of .apply function of pandas.  Unforetunately, I was unaware that apply could be used for anything except lambda functions until after I had already written the code.  If given the chance, it is possible I could update this for the second milestone.    
 
             
