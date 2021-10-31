@@ -9,7 +9,7 @@ Date: October 31, 2021
 ### project007.ipynb
 ```
 This file that contains the code for the 007 project.
-It compiles a dataframe of information pertaining the James Bond Movies.
+It compiles a dataframe of information pertaining the James Bond movies.
 The information is obtained through IMDb's API and should be up to date.
 ```
 * It is a jupyter notebook file and should be opened with Microsoft Visual Studio Code
