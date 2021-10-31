@@ -1,4 +1,5 @@
 ## Project 007 Write-Up
+## Data Collection
 ```
 By: Andy Snitgen
 For: Professor Karen Jin
@@ -33,4 +34,10 @@ Project 007 uses API calls in two places, both functions.  One of them is the af
             * It will also concatenate a '(est.)' string to the end to show the data has been interpolated and is only an estimation.
 * Once all the data has been curated, formatted and saved to corresponding variables, these variables are saved to a dictionary: `new_row`.
     * The keys in this dictionary are the column names in the dataframe, and the values are the variables derived from the API call.
+* The dictionary, `new_row` is then returned to end the data function.
+
+### Interpolated Data
+```
+Some values used in the dataframe are not drawn directly from the API, instead they entirely interpolated.  They are the best estimation I could produce given the concrete data IMDb provided.  I chose to use approximations because it allows for more useful comparisons than would otherwise be viable.  One example that has already been discussed is the case of a null value for IMDb user ratings.  
+
             
