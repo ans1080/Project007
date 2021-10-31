@@ -25,11 +25,27 @@ This file that contains the output dataframe saved in a comma seperated value fo
 * This is simply the resulting dataframe from the ipynb file in an easily accessible format
   * Default viewing program is notepad, but others like excel can be used to read the file
 
-### project007.md
+### data_collection.md
 ```
-This file contains the written report to coincide with and explain the project. 
+This file contains the written report to explain the data collection process for the project.
 ```
 * The file is written in markdown language
-  * This means it is best viewed as formatted text, but is readable in its raw form
-* If a word document (.docx) is prefered, I can create one.
+  * It is best viewed as formatted text in Visual Studio Code, but is readable in its raw form
+* If a word document (.docx) is prefered, I can create one for Milestone II.
+
+### column_documentation.md
+```
+This file contains a brief description of the information contained within each column.  In addition, it also details the data type and source of the information.  
+```
+* The file is written in markdown language
+  * It is best viewed as formatted text in Visual Studio Code, but is readable in its raw form
+* If a word document (.docx) is prefered, I can create one for Milestone II.
+
+### questions.md
+```
+This file contains a list of questions I intend to answer by analyzing the data within the project 007 dataframe. 
+```
+* The file is written in markdown language
+  * It is best viewed as formatted text in Visual Studio Code, but is readable in its raw form
+* If a word document (.docx) is prefered, I can create one for Milestone II.
   
