@@ -1,4 +1,4 @@
-## Project007 Repository Read Me
+## Project 007 Repository Read Me
 ```
 By: Andy Snitgen
 For: Professor Karen Jin
