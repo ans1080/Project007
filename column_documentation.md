@@ -73,3 +73,4 @@ The data stored in the Metacritic column is the mean of the aggregate score of m
 ```
 * Type: String
     * replace_critic converts to float data type
+* Souce: API Call
