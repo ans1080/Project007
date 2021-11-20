@@ -31,7 +31,6 @@ This file contains the written report to explain the data collection process for
 ```
 * The file is written in markdown language
   * It is best viewed as formatted text in Visual Studio Code, but is readable in its raw form
-* If a word document (.docx) is prefered, I can create one for Milestone II.
 
 ### column_documentation.md
 ```
@@ -39,7 +38,6 @@ This file contains a brief description of the information contained within each 
 ```
 * The file is written in markdown language
   * It is best viewed as formatted text in Visual Studio Code, but is readable in its raw form
-* If a word document (.docx) is prefered, I can create one for Milestone II.
 
 ### questions.md
 ```
@@ -47,5 +45,10 @@ This file contains a list of questions I intend to answer by analyzing the data 
 ```
 * The file is written in markdown language
   * It is best viewed as formatted text in Visual Studio Code, but is readable in its raw form
-* If a word document (.docx) is prefered, I can create one for Milestone II.
+
+### Project Milestone 1 Report
+```
+This contains the same information as the markdowns, but in a word document
+```
+* As a .docx file it should be readable by most word processing applications
   
