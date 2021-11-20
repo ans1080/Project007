@@ -1,0 +1,28 @@
+../data/mcu_data.csv,By: Andy Snitgen & Evan Ryan,Movie Data Analysis Project,2021-11-19
+Title,Year,Actor,US Box Office,International Revenue,Adjusted Revenue,Average Rating,IMDb Rating,Metacritic
+Iron Man,2008,Robert Downey Jr.,"$319,034,126","$585,796,247","$738,435,213",79.0%,7.9 / 10,79%
+The Incredible Hulk,2008,Edward Norton,"$134,806,913","$264,770,996","$333,761,488",64.0%,6.7 / 10,61%
+Iron Man 2,2010,Robert Downey Jr.,"$312,433,331","$623,933,331","$776,412,224",63.5%,7.0 / 10,57%
+Thor,2011,Chris Hemsworth,"$181,030,624","$449,326,618","$542,228,742",63.5%,7 / 10,57%
+Captain America: The First Avenger,2011,Chris Evans,"$176,654,505","$370,569,774","$447,188,247",67.5%,6.9 / 10,66%
+The Avengers,2012,Robert Downey Jr.,"$623,357,910","$1,518,815,515","$1,795,324,611",74.5%,8.0 / 10,69%
+Iron Man 3,2013,Robert Downey Jr.,"$409,013,994","$1,214,811,252","$1,415,020,488",66.5%,7.1 / 10,62%
+Thor: The Dark World,2013,Chris Hemsworth,"$206,362,140","$644,783,140","$751,047,829",61.5%,6.9 / 10,54%
+Captain America: The Winter Soldier,2014,Chris Evans,"$259,766,572","$714,421,503","$819,155,031",73.5%,7.7 / 10,70%
+Guardians of the Galaxy,2014,Chris Pratt,"$333,718,600","$773,350,147","$886,722,560",78.0%,8.0 / 10,76%
+Avengers: Age of Ultron,2015,Robert Downey Jr.,"$459,005,868","$1,402,809,540","$1,606,424,089",69.5%,7.3 / 10,66%
+Ant-Man,2015,Paul Rudd,"$180,202,163","$519,311,965","$594,688,892",68.5%,7.3 / 10,64%
+Captain America: Civil War,2016,Chris Evans,"$408,084,349","$1,153,337,496","$1,304,232,485",76.5%,7.8 / 10,75%
+Doctor Strange,2016,Benedict Cumberbatch,"$232,641,920","$677,796,076","$766,474,396",73.5%,7.5 / 10,72%
+Guardians of the Galaxy Vol. 2,2017,Chris Pratt,"$389,813,101","$863,756,051","$956,439,789",71.5%,7.6 / 10,67%
+Spider-Man: Homecoming,2017,Tom Holland,"$334,201,140","$880,166,924","$974,611,600",73.5%,7.4 / 10,73%
+Thor: Ragnarok,2017,Chris Hemsworth,"$315,058,289","$853,983,911","$945,619,068",76.5%,7.9 / 10,74%
+Black Panther,2018,Chadwick Boseman,"$700,426,566","$1,347,597,973","$1,456,543,568",80.5%,7.3 / 10,88%
+Avengers: Infinity War,2018,Robert Downey Jr.,"$678,815,482","$2,048,359,754","$2,213,957,934",76.0%,8.4 / 10,68%
+Ant-Man and the Wasp,2018,Paul Rudd,"$216,648,740","$622,674,139","$673,013,785",70.0%,7.0 / 10,70%
+Captain Marvel,2019,Brie Larson,"$426,829,839","$1,128,462,972","$1,197,750,687",66.5%,6.9 / 10,64%
+Avengers: Endgame,2019,Robert Downey Jr.,"$858,373,000","$2,797,501,328","$2,969,268,128",81.0%,8.4 / 10,78%
+Spider-Man: Far from Home,2019,Tom Holland,"$390,532,085","$1,131,927,996","$1,201,428,463",72.0%,7.5 / 10,69%
+Black Widow,2021,Scarlett Johansson,No Data,$62 (est.),$62,67.0%,6.7 / 10 (est.),67%
+Shang-Chi and the Legend of the Ten Rings,2021,Simu Liu,"$155,193,555","$267,138,031","$267,138,031",75.5%,8 / 10,71%
+Eternals,2021,Angelina Jolie,No Data,$62 (est.),$62,55.0%,5.5 / 10 (est.),55%

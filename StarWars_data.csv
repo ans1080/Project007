@@ -1,0 +1,13 @@
+StarWars_data.csv,By: Andy Snitgen & Evan Ryan,Movie Data Analysis Project,2021-11-10
+Title,Year,Actor,US Box Office,International Revenue,Adjusted Revenue,Average Rating,IMDb Rating,Metacritic
+Star Wars: Episode I - The Phantom Menace,1999,Ewan McGregor,"$474,544,677","$1,027,082,707","$1,673,170,748",58.0%,6.5 / 10,51%
+Star Wars: Episode II - Attack of the Clones,2002,Hayden Christensen,"$310,676,740","$653,779,970","$986,302,856",59.5%,6.5 / 10,54%
+Star Wars: Episode III - Revenge of the Sith,2005,Hayden Christensen,"$380,270,577","$868,390,560","$1,206,764,967",71.5%,7.5 / 10,68%
+Star Wars: Episode IV - A New Hope,1977,Mark Hamill,"$460,998,507","$775,398,007","$3,472,657,081",88.0%,8.6 / 10,90%
+Star Wars: Episode V - The Empire Strikes Back,1980,Mark Hamill,"$292,753,960","$538,375,067","$1,773,240,209",84.5%,8.7 / 10,82%
+Star Wars: Episode VI - Return of the Jedi,1983,Mark Hamill,"$309,306,177","$475,106,177","$1,294,616,631",70.5%,8.3 / 10,58%
+Star Wars: Episode VII - The Force Awakens,2015,Daisy Ridley,"$936,662,225","$2,068,455,677","$2,368,687,218",79.5%,7.9 / 10,80%
+Star Wars: Episode VIII - The Last Jedi,2017,Daisy Ridley,"$620,181,382","$1,332,698,830","$1,475,701,601",77.0%,7.0 / 10,84%
+Star Wars: Episode IX - The Rise of Skywalker,2019,Daisy Ridley,"$515,202,542","$1,074,144,248","$1,140,096,789",59.5%,6.6 / 10,53%
+Rogue One: A Star Wars Story,2016,Felicity Jones,"$532,177,324","$1,056,057,720","$1,194,225,272",71.5%,7.8 / 10,65%
+Solo: A Star Wars Story,2018,Alden Ehrenreich,"$213,767,512","$392,924,807","$424,690,532",65.5%,6.9 / 10,62%
