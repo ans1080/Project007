@@ -1,0 +1,8 @@
+data/MissionImpossible_data.csv,By: Andy Snitgen & Evan Ryan,Movie Data Analysis Project,2021-11-12
+Title,Year,Actor,US Box Office,International Revenue,Adjusted Revenue,Average Rating,IMDb Rating,Metacritic
+Mission: Impossible,1996,Tom Cruise,"$180,981,856","$457,696,391","$791,706,823",65.0%,7.1 / 10,59%
+Mission: Impossible II,2000,Tom Cruise,"$215,409,889","$546,388,108","$861,148,272",60.0%,6.1 / 10,59%
+Mission: Impossible III,2006,Tom Cruise,"$134,029,801","$398,479,497","$536,445,116",67.5%,6.9 / 10,66%
+Mission: Impossible - Ghost Protocol,2011,Tom Cruise,"$209,397,903","$694,713,380","$838,351,318",73.5%,7.4 / 10,73%
+Mission: Impossible - Rogue Nation,2015,Tom Cruise,"$195,042,377","$682,716,636","$781,811,371",74.5%,7.4 / 10,75%
+Mission: Impossible - Fallout,2018,Tom Cruise,"$220,159,104","$791,657,398","$855,658,374",81.5%,7.7 / 10,86%

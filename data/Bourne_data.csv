@@ -1,0 +1,7 @@
+../data/Bourne_data.csv,By: Andy Snitgen & Evan Ryan,Movie Data Analysis Project,2021-11-17
+Title,Year,Actor,US Box Office,International Revenue,Adjusted Revenue,Average Rating,IMDb Rating,Metacritic
+The Bourne Identity,2002,Franka Potente,"$121,661,683","$214,034,224","$322,895,433",73.5%,7.9 / 10,68%
+The Bourne Supremacy,2004,Matt Damon,"$176,241,941","$290,835,269","$417,854,378",75.0%,7.7 / 10,73%
+The Bourne Ultimatum,2007,Matt Damon,"$227,471,070","$444,100,035","$581,421,850",82.5%,8 / 10,85%
+The Bourne Legacy,2012,Jeremy Renner,"$113,203,870","$276,144,750","$326,418,489",63.5%,6.6 / 10,61%
+Jason Bourne,2016,Matt Damon,"$162,434,410","$415,484,914","$469,844,190",62.0%,6.6 / 10,58%

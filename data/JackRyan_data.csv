@@ -1,0 +1,7 @@
+../data/JackRyan_data.csv,By: Andy Snitgen & Evan Ryan,Movie Data Analysis Project,2021-11-17
+Title,Year,Actor,US Box Office,International Revenue,Adjusted Revenue,Average Rating,IMDb Rating,Metacritic
+The Hunt for Red October,1990,Sean Connery,"$122,012,643","$200,512,643","$416,366,728",67.0%,7.6 / 10,58%
+Patriot Games,1992,Harrison Ford,"$83,351,587","$178,051,587","$344,427,660",66.5%,6.9 / 10,64%
+Clear and Present Danger,1994,Harrison Ford,"$122,187,717","$215,887,717","$395,357,128",71.5%,6.9 / 10,74%
+The Sum of All Fears,2002,Ben Affleck,"$118,907,036","$193,921,372","$292,552,865",54.5%,6.4 / 10,45%
+Jack Ryan: Shadow Recruit,2014,Chris Pine,"$50,577,412","$135,503,748","$155,368,472",59.5%,6.2 / 10,57%

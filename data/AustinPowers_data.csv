@@ -1,0 +1,5 @@
+../data/AustinPowers_data.csv,By: Andy Snitgen & Evan Ryan,Movie Data Analysis Project,2021-11-17
+Title,Year,Actor,US Box Office,International Revenue,Adjusted Revenue,Average Rating,IMDb Rating,Metacritic
+Austin Powers: International Man of Mystery,1997,Mike Myers,"$53,883,989","$67,683,989","$114,451,306",60.5%,7.0 / 10,51%
+Austin Powers: The Spy Who Shagged Me,1999,Mike Myers,"$206,040,086","$312,016,928","$508,291,682",62.5%,6.6 / 10,59%
+Austin Powers in Goldmember,2002,Mike Myers,"$213,307,889","$296,938,801","$447,966,596",62.0%,6.2 / 10,62%

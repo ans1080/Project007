@@ -23,7 +23,7 @@ The information is obtained through IMDb's API and should be up to date.
 This file contains code that reads a csv and analysises the data within.
 ```
 * In the read_csv (line 5) the input parameter can be altered to read different data sets
-* This is a jupyter notebook file and is best run in visual studio code.
+* This is a jupyter notebook file and is best run in Microsoft Visual Studio Code.
 
 ### Project Milestone 1 Report
 ```
@@ -31,25 +31,64 @@ This contains documentation to explain the data collection process, the columns 
 ```
 * As a .docx file it should be readable by most word processing applications
 
-### 007_data.csv
+### data/007_data.csv
 ```
-This file that contains the output dataframe saved in a comma seperated value format.
-```
-* This is simply the resulting dataframe from the ipynb file in an easily accessible format
-  * Default viewing program is notepad, but others like excel can be used to read the file
-
-### mcu_data.csv
-```
-This file that contains the output dataframe saved in a comma seperated value format.
-Very similar to the project007.csv file, except this one contains data about Marvel Cinematic Universe
+This file that contains the output dataframe saved in a comma seperated value format
+In this case, it contains information on the James Bond 007 series
 ```
 * This is simply the resulting dataframe from the ipynb file in an easily accessible format
   * Default viewing program is notepad, but others like excel can be used to read the file
 
-### StarWars_data.csv
+### data/mcu_data.csv
 ```
 This file that contains the output dataframe saved in a comma seperated value format.
-Very similar to the project007.csv file, except this one contains data about Star Wars
+Very similar to the original 007_data.csv file
+This one is about: The Marvel Cinematic Universe
+```
+* This is simply the resulting dataframe from the ipynb file in an easily accessible format
+  * Default viewing program is notepad, but others like excel can be used to read the file
+
+### data/StarWars_data.csv
+```
+This file that contains the output dataframe saved in a comma seperated value format.
+Very similar to the original 007_data.csv file
+This one is about: The Star Wars Franchise
+```
+* This is simply the resulting dataframe from the ipynb file in an easily accessible format
+  * Default viewing program is notepad, but others like excel can be used to read the file
+
+### data/AustinPowers_data.csv
+```
+This file that contains the output dataframe saved in a comma seperated value format.
+Very similar to the original 007_data.csv file
+This one is about: The Austin Powers Trilogy
+```
+* This is simply the resulting dataframe from the ipynb file in an easily accessible format
+  * Default viewing program is notepad, but others like excel can be used to read the file
+
+### data/Bourne_data.csv
+```
+This file that contains the output dataframe saved in a comma seperated value format.
+Very similar to the original 007_data.csv file
+This one is about: The Jason Bourne Series
+```
+* This is simply the resulting dataframe from the ipynb file in an easily accessible format
+  * Default viewing program is notepad, but others like excel can be used to read the file
+
+### data/JackRyan_data.csv
+```
+This file that contains the output dataframe saved in a comma seperated value format.
+Very similar to the original 007_data.csv file
+This one is about: Tom Clancy's Jack Ryan Franchise
+```
+* This is simply the resulting dataframe from the ipynb file in an easily accessible format
+  * Default viewing program is notepad, but others like excel can be used to read the file
+
+### data/MissionImpossible_data.csv
+```
+This file that contains the output dataframe saved in a comma seperated value format.
+Very similar to the original 007_data.csv file
+This one is about: The Mission Impossible Franchise
 ```
 * This is simply the resulting dataframe from the ipynb file in an easily accessible format
   * Default viewing program is notepad, but others like excel can be used to read the file
