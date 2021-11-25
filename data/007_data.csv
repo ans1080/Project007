@@ -1,20 +1,20 @@
 Project 007 CSV,By: Andy Snitgen,For: Karen Jin,Class: comp574,"Date: Oct. 31, 2021"
 Title,Year,Actor,US Box Office,International Revenue,Adjusted Revenue,Average Rating,IMDb Rating,Metacritic
-Dr. No,1962,Sean Connery,"$16,067,035","$56,367,173 (est.)","$504,886,163",75.0%,7.2 / 10,78%
-From Russia with Love,1963,Sean Connery,"$24,796,765","$86,993,247 (est.)","$771,567,557",79.0%,7.4 / 10,84%
-Goldfinger,1964,Sean Connery,"$51,081,062","$179,205,128 (est.)","$1,568,911,992",82.0%,7.7 / 10,87%
-Thunderball,1965,Sean Connery,"$63,595,658","$223,109,458 (est.)","$1,922,282,759",67.0%,7 / 10,64%
-You Only Live Twice,1967,Sean Connery,"$43,084,787","$151,152,198 (est.)","$1,228,224,747",65.0%,6.9 / 10,61%
-On Her Majesty's Secret Service,1969,George Lazenby,"$22,774,493","$79,898,612 (est.)","$590,857,855",64.0%,6.7 / 10,61%
-Diamonds Are Forever,1971,Sean Connery,"$43,819,547","$153,729,919 (est.)","$1,030,180,247",62.5%,6.6 / 10,59%
-Live and Let Die,1973,Roger Moore,"$35,377,836","$124,114,288 (est.)","$758,662,562",61.5%,6.8 / 10,55%
-The Man with the Golden Gun,1974,Roger Moore,"$20,972,000","$73,575,016 (est.)","$405,035,686",55.0%,6.7 / 10,43%
-The Spy Who Loved Me,1977,Roger Moore,"$46,838,673","$164,321,768 (est.)","$735,922,902",63.0%,7.1 / 10,55%
+Dr. No,1962,Sean Connery,"$16,067,035","$56,892,409 (est.)","$509,590,753",75.0%,7.2 / 10,78%
+From Russia with Love,1963,Sean Connery,"$24,796,765","$87,803,860 (est.)","$778,757,111",79.0%,7.4 / 10,84%
+Goldfinger,1964,Sean Connery,"$51,081,062","$180,874,982 (est.)","$1,583,531,294",82.0%,7.7 / 10,87%
+Thunderball,1965,Sean Connery,"$63,595,658","$225,188,418 (est.)","$1,940,194,814",67.0%,7 / 10,64%
+You Only Live Twice,1967,Sean Connery,"$43,084,787","$152,560,651 (est.)","$1,239,669,481",65.0%,6.9 / 10,61%
+On Her Majesty's Secret Service,1969,George Lazenby,"$22,774,493","$80,643,116 (est.)","$596,363,534",64.0%,6.7 / 10,61%
+Diamonds Are Forever,1971,Sean Connery,"$43,819,547","$155,162,393 (est.)","$1,039,779,592",62.5%,6.6 / 10,59%
+Live and Let Die,1973,Roger Moore,"$35,377,836","$125,270,799 (est.)","$765,731,866",61.5%,6.8 / 10,55%
+The Man with the Golden Gun,1974,Roger Moore,"$20,972,000","$74,260,596 (est.)","$408,809,853",55.0%,6.7 / 10,43%
+The Spy Who Loved Me,1977,Roger Moore,"$46,838,673","$165,852,937 (est.)","$742,780,315",63.0%,7.1 / 10,55%
 Moonraker,1979,Roger Moore,"$70,308,099","$210,308,099","$786,193,086",64.5%,6.3 / 10,66%
-For Your Eyes Only,1981,Roger Moore,"$54,812,802","$192,297,005 (est.)","$574,140,893",60.5%,6.7 / 10,54%
-Octopussy,1983,Roger Moore,"$67,893,619","$238,187,779 (est.)","$649,037,783",64.0%,6.5 / 10,63%
-A View to a Kill,1985,Roger Moore,"$50,327,960","$176,563,058 (est.)","$445,345,854",51.5%,6.3 / 10,40%
-The Living Daylights,1987,Timothy Dalton,"$51,185,897","$179,572,916 (est.)","$429,014,872",63.5%,6.7 / 10,60%
+For Your Eyes Only,1981,Roger Moore,"$54,812,802","$194,088,850 (est.)","$579,490,802",60.5%,6.7 / 10,54%
+Octopussy,1983,Roger Moore,"$67,893,619","$240,407,240 (est.)","$655,085,592",64.0%,6.5 / 10,63%
+A View to a Kill,1985,Roger Moore,"$50,327,960","$178,208,293 (est.)","$449,495,639",51.5%,6.3 / 10,40%
+The Living Daylights,1987,Timothy Dalton,"$51,185,897","$181,246,197 (est.)","$433,012,481",63.5%,6.7 / 10,60%
 License to Kill,1989,Timothy Dalton,"$34,667,015","$156,167,015","$341,804,257",62.0%,6.6 / 10,58%
 GoldenEye,1995,Pierce Brosnan,"$106,429,941","$352,194,034","$627,201,187",68.5%,7.2 / 10,65%
 Tomorrow Never Dies,1997,Pierce Brosnan,"$125,304,276","$333,011,068","$563,110,304",58.5%,6.5 / 10,52%
@@ -24,4 +24,4 @@ Casino Royale,2006,Daniel Craig,"$167,445,960","$616,502,912","$829,954,813",80.
 Quantum of Solace,2008,Daniel Craig,"$168,368,427","$589,580,482","$743,205,494",62.0%,6.6 / 10,58%
 Skyfall,2012,Daniel Craig,"$304,360,277","$1,108,569,499","$1,310,390,950",79.5%,7.8 / 10,81%
 Spectre,2015,Daniel Craig,"$200,074,609","$880,681,519","$1,008,510,398",64.0%,6.8 / 10,60%
-No Time to Die,2021,Daniel Craig,"$120,357,453","$525,482,453","$525,482,453",68.0%,6.8 / 10 (est.),68%
+No Time to Die,2021,Daniel Craig,"$155,582,117","$735,220,117","$735,220,117",68.0%,6.8 / 10 (est.),68%
