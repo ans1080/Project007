@@ -34,7 +34,8 @@ This file contains the written report to explain the data collection process for
 
 ### column_documentation.md
 ```
-This file contains a brief description of the information contained within each column.  In addition, it also details the data type and source of the information.  
+This file contains a brief description of the information contained within each column.  
+In addition, it also details the data type and source of the information.  
 ```
 * The file is written in markdown language
   * It is best viewed as formatted text in Visual Studio Code, but is readable in its raw form
@@ -51,4 +52,26 @@ This file contains a list of questions I intend to answer by analyzing the data 
 This contains the same information as the markdowns, but in a word document
 ```
 * As a .docx file it should be readable by most word processing applications
-  
+
+### 007analysis.ipynb
+```
+This file contains code that reads a csv and analysises the data within.
+```
+* In the read_csv (line 5) the input parameter can be altered to read different data sets
+* This is a jupyter notebook file and is best run in visual studio code.
+
+### mcu_data.csv
+```
+This file that contains the output dataframe saved in a comma seperated value format.
+Very similar to the project007.csv file, except this one contains data about Marvel Cinematic Universe
+```
+* This is simply the resulting dataframe from the ipynb file in an easily accessible format
+  * Default viewing program is notepad, but others like excel can be used to read the file
+
+### StarWars_data.csv
+```
+This file that contains the output dataframe saved in a comma seperated value format.
+Very similar to the project007.csv file, except this one contains data about Star Wars
+```
+* This is simply the resulting dataframe from the ipynb file in an easily accessible format
+  * Default viewing program is notepad, but others like excel can be used to read the file
