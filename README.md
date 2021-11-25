@@ -42,7 +42,9 @@ In addition, it also details the data type and source of the information.
 
 ### questions.md
 ```
-This file contains a list of questions I intend to answer by analyzing the data within the project 007 dataframe. 
+This file contains a list of questions I intend to answer. 
+This is done in 007analysis.ipynb file.
+The analysis contains only relevant questions from this file.
 ```
 * The file is written in markdown language
   * It is best viewed as formatted text in Visual Studio Code, but is readable in its raw form
