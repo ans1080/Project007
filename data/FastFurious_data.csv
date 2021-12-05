@@ -1,0 +1,12 @@
+C:\Users\ANSni\OneDrive\Desktop\Andy's Homework\Data Structures\movie_project\data/FastFurious_data.csv,By: Andy Snitgen & Evan Ryan,Movie Data Analysis Project,2021-12-01
+Title,Year,Actor,US Box Office,International Revenue,Adjusted Revenue,Average Rating,IMDb Rating,Metacritic
+The Fast and the Furious,2001,Vin Diesel,"$144,533,925","$207,305,509","$317,688,962",63.0%,6.8 / 10,58%
+2 Fast 2 Furious,2003,Paul Walker,"$127,154,901","$236,350,661","$348,617,225",48.5%,5.9 / 10,38%
+The Fast and the Furious: Tokyo Drift,2006,Lucas Black,"$62,514,415","$158,964,610","$214,002,952",52.5%,6.0 / 10,45%
+The Fast and the Furious,2001,Vin Diesel,"$144,533,925","$207,305,509","$317,688,962",63.0%,6.8 / 10,58%
+Fast Five,2011,Vin Diesel,"$209,837,675","$626,137,675","$755,596,999",69.5%,7.3 / 10,66%
+Fast & Furious 6,2013,Vin Diesel,"$238,679,850","$788,680,968","$918,661,007",65.5%,7.0 / 10,61%
+Furious 7,2015,Vin Diesel,"$353,007,020","$1,515,255,622","$1,735,191,459",69.0%,7.1 / 10,67%
+The Fate of the Furious,2017,Vin Diesel,"$226,008,385","$1,236,005,118","$1,368,632,350",61.0%,6.6 / 10,56%
+Fast & Furious Presents: Hobbs & Shaw,2019,Dwayne Johnson,"$173,956,935","$759,056,935","$805,663,090",62.0%,6.4 / 10,60%
+F9,2021,Vin Diesel,No Data,"$163,005,000","$163,005,000",54.0%,5.5 / 10,53%

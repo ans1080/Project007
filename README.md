@@ -25,6 +25,13 @@ This file contains code that reads a csv and analysises the data within.
 * In the read_csv (line 5) the input parameter can be altered to read different data sets
 * This is a jupyter notebook file and is best run in Microsoft Visual Studio Code.
 
+### Milestone_III_Prediction.ipynb
+```
+This file contains code that reads a csv and then uses machine learning to make predictions about the data.
+```
+* In the read_csv (line 7) the input parameter can be altered to read different data sets
+* This is a jupyter notebook file and is best run in Microsoft Visual Stuido Code.
+
 ### Project Milestone 1 Report
 ```
 This contains documentation to explain the data collection process, the columns and intended questions
