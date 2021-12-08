@@ -99,3 +99,30 @@ This one is about: The Mission Impossible Franchise
 ```
 * This is simply the resulting dataframe from the ipynb file in an easily accessible format
   * Default viewing program is notepad, but others like excel can be used to read the file
+
+### data/Braveheart_data.csv
+```
+This file that contains the output dataframe saved in a comma seperated value format.
+Very similar to the original 007_data.csv file
+This one is about: The single movie Braveheart (1 Film Test file)
+```
+* This is simply the resulting dataframe from the ipynb file in an easily accessible format
+  * Default viewing program is notepad, but others like excel can be used to read the file
+
+### data/PiratesCaribbean_data.csv
+```
+This file that contains the output dataframe saved in a comma seperated value format.
+Very similar to the original 007_data.csv file
+This one is about: The Pirates of the Caribbean (5 Film Test file)
+```
+* This is simply the resulting dataframe from the ipynb file in an easily accessible format
+  * Default viewing program is notepad, but others like excel can be used to read the file
+
+### data/FastFurious_data.csv
+```
+This file that contains the output dataframe saved in a comma seperated value format.
+Very similar to the original 007_data.csv file
+This one is about: The Pirates of the Caribbean (10 Film Test file)
+```
+* This is simply the resulting dataframe from the ipynb file in an easily accessible format
+  * Default viewing program is notepad, but others like excel can be used to read the file
